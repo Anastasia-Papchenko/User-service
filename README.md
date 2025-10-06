@@ -108,6 +108,10 @@ npm run dev
 
 После запуска приложения и применения миграций в базе появляются:
 
+### База данных 
+
+- `user_service`
+
 ### Таблицы
 
 - **users**
@@ -196,3 +200,4 @@ curl -s -X PATCH "$USERS/$USER_ID/block" \
   -H "Authorization: Bearer $ACCESS_TOKEN"
 
 ```
+
